@@ -2,7 +2,7 @@
 ###对volley的二次封装库
 
 #####使用方法:
-你的工程以来library即可。app里是使用例子。library依赖了volley和Gson库。
+你的工程依赖library即可。app里是使用例子。library依赖了volley和Gson库。
 #####该库的优势：
 对volley进行了二次封装，把json解析放到了该库里面，和业务层剥离开来，业务层调用后拿到的就是已经解析好的json类，从而做到低耦合。
 
