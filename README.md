@@ -29,9 +29,12 @@ HttpRequestManager.getInstance().orderList(new Response.Listener<DouBanRadioBean
 ```
 #####library工程类文件说明:
 ErrorBean、ErrorResult 自定错误bean
+
 VolleyErrorHelper 对volley错误的处理
+
 HttpRequest 对volley网络请求的封装
 
 #####app工程类文件说明：
 DouBanRadioBean 豆瓣电台信息bean
+
 HttpRequestManager 网络请求管理器，所有的网络请求都可以写在这里面(包含了get和post【带参数和不带参数】请求的例子)
