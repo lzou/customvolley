@@ -57,7 +57,7 @@ public class VolleyErrorHelper {
 
     //判断是否是网络错误
     private static boolean isNetworkProblem(Object error) {
-        return (error instanceof NetworkError) ||  (error instanceof NoConnectionError);
+        return error instanceof NetworkError;
     }
 
     //判断是否是服务端错误
